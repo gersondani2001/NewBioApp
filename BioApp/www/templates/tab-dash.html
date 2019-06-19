@@ -1,0 +1,59 @@
+<ion-view view-title="Biologia.">
+  <ion-content class="padding" >
+    <div class="fon text-center">
+      <h2 class="styh2">Videos Promocionales.</h2>
+      <p>Estos videos de Biologia que trata sobre el ciclo, de produccion celular tanto como en el ser humano, como un microorganismo.</p>      
+    </div>
+
+    
+    <div class="text-center">
+      <h3>Transporte Activo.</h3>
+      <iframe class="imgci" width="853" height="480" src="https://www.youtube.com/embed/yqyQ20g-PXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>   
+    <div class="text-center">
+      <h3>Transporte Pasivo.</h3>
+      <iframe class="imgci" width="640" height="480" src="https://www.youtube.com/embed/HG7zn3uAW_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+    </div>
+    <div class="text-center">
+      <h3>Sintesis de fosfageno.</h3>  
+      <iframe class="imgci" width="853" height="480" src="https://www.youtube.com/embed/9YaWvv7vMJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="text-center">
+      <h3>Osmosis y Difusion.</h3>      
+      <iframe class="imgci" width="802" height="441" src="https://www.youtube.com/embed/N2vbhD7Mjso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+    </div>  
+    <div class="text-center">
+      <h3>Transporte de energia en el cuerpo(celular).</h3>
+      <iframe class="imgci" width="796" height="441" src="https://www.youtube.com/embed/X4cC5T72rlA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+    </div>
+    <div class="text-center">
+      <h3>Membrana plasmatica.</h3>
+      <iframe class="imgci" width="835" height="480" src="https://www.youtube.com/embed/eFnO2xMmuYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+    </div>
+
+
+
+    
+    <ul ng-repeat="x in ListaE" class="ul">
+      <li class="text-center"><h1 class="styh1">{{x.title}}</h1></li>
+      <br>
+      <li><p class="p">{{x.p1}}</p></li>
+      <br>
+      <li class="text-center"><img src="{{x.img1}}" alt="img biologia." class="imgci"></li>
+      <br>
+      <br>
+      <li><p class="p">{{x.p2}}</p></li>
+      <br>
+      <li class="text-center"><img src="{{x.img2}}" alt="img biologia." class="imgci"></li>
+      <br>
+      <br>
+      <li><p class="p">{{x.p3}}</p></li>
+      <br>
+      <li class="text-center"><img src="{{x.img3}}" alt="img biologia." class="imgci"></li>
+      <br>
+      <hr>
+    </ul>
+
+  </ion-content>
+</ion-view>
